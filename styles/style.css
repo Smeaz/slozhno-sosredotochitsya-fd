@@ -2,13 +2,13 @@
 
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
-  font-family: 'IBM Plex mono', sans-serif;
+  font-family: "IBM Plex mono", sans-serif;
   background-image: var(--background-img);
   background-position-x: center;
   background-position-y: top;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
   background-color: var(--background-color);
   font-size: var(--font-size);
   line-height: 1.3;
@@ -23,7 +23,8 @@
   grid-template-rows: 227px 192px 1fr;
 }
 
-.decorated-zone::before, .decorated-zone::after {
+.decorated-zone::before,
+.decorated-zone::after {
   content: "";
   display: block;
   width: 25px;
@@ -225,11 +226,13 @@
     gap: 0 20px;
   }
 
-  .card-focus, .card-fish {
+  .card-focus,
+  .card-fish {
     grid-template-columns: 1fr 2fr;
   }
 
-  .card-focus .card-title, .card-fish .card-title {
+  .card-focus .card-title,
+  .card-fish .card-title {
     grid-row: span 99;
   }
 
