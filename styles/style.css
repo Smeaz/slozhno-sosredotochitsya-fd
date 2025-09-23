@@ -15,6 +15,7 @@
 }
 
 .header {
+  position: relative;
   block-size: 100vh;
   min-block-size: 668px;
   padding: 10px;
@@ -246,19 +247,19 @@
     grid-column: span 3;
   }
 
-  .img-item-1 {
+  .img-sunset {
     grid-column: span 2;
   }
 
-  .img-item-2 {
+  .img-ice-cream {
     grid-row: span 2;
   }
 
-  .img-item-3 {
+  .img-tape {
     grid-row: span 2;
   }
 
-  .img-item-5 {
+  .img-street {
     grid-column: span 2;
   }
 
